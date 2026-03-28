@@ -25,6 +25,7 @@ and m = satellite mass
 The equations of motion are integrated using the Euler-Cromer method:
 
 v(n+1) = v(n) + a(n) * dt
+
 r(n+1) = r(n) + v(n+1) * dt
 
 This method improves numerical stability compared to standard Euler integration, making it suitable for long-duration orbital simulations.
