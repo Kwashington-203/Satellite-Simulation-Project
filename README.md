@@ -9,33 +9,27 @@ The simulation models satellite motion under gravitational forces, with optional
 
 The governing equation of motion is:
 
-[
-\vec{a} = -\frac{GM}{r^3}\vec{r} - \frac{C_d \rho A}{2m} \vec{v} |\vec{v}|
-]
+a = - (G * M / r^3) * r  -  (Cd * rho * A / (2m)) * v * |v|
 
 where:
 
-* ( G ) is the gravitational constant
-* ( M ) is the mass of Earth
-* ( \vec{r} ) is the position vector
-* ( \vec{v} ) is the velocity vector
-* ( C_d ) is the drag coefficient
-* ( \rho ) is atmospheric density
-* ( A ) is the projected area of the satellite
+ G = gravitational constant
+ M = mass of Earth
+ r = position vector
+ v = velocity vector
+ Cd = drag coefficient
+ rho = atmospheric density
+ A = projected area
+ m = satellite mass
 
-The equations of motion are numerically integrated using the Euler-Cromer method:
+The equations of motion are integrated using the Euler-Cromer method:
 
-[
-\vec{v}_{n+1} = \vec{v}_n + \vec{a}_n \Delta t
-]
+v(n+1) = v(n) + a(n) * dt
+r(n+1) = r(n) + v(n+1) * dt
 
-[
-\vec{r}_{n+1} = \vec{r}*n + \vec{v}*{n+1} \Delta t
-]
+This method improves numerical stability compared to standard Euler integration, making it suitable for long-duration orbital simulations.
 
-This method improves numerical stability compared to standard Euler integration, making it well-suited for simulating orbital motion over extended time periods.
-
-The model assumes a simplified two-body system and neglects higher-order perturbations such as gravitational influences from other bodies and atmospheric variation with altitude.
+The model assumes a simplified two-body system and neglects higher-order perturbations such as atmospheric variation and gravitational influences from other bodies.
 
 ## Key Features
 - Simulates large-scale multi-body orbital motion
