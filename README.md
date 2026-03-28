@@ -2,7 +2,7 @@
 This project was developed for a MATLAB-based mechanical engineering programming course.
 
 ## Overview
-Developed and visualized a large-scale orbital simulation modeling the trajectories of thousands of satellites using Newton’s Second Law and the Euler-Cromer numerical integration method.
+Developed and visualized a large-scale orbital simulation modeling the trajectories of hundreds of satellites using Newton’s Second Law and the Euler-Cromer numerical integration method.
 
 ## Physics Model 
 The simulation models satellite motion under gravitational forces, with optional atmospheric drag, using Newton’s Second Law. Each satellite is treated as a point mass orbiting Earth.
