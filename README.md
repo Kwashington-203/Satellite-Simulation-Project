@@ -13,14 +13,14 @@ a = - (G * M / r^3) * r  -  (Cd * rho * A / (2m)) * v * |v|
 
 where:
 
- G = gravitational constant
- M = mass of Earth
- r = position vector
- v = velocity vector
- Cd = drag coefficient
- rho = atmospheric density
- A = projected area
- m = satellite mass
+G = gravitational constant
+M = mass of Earth
+r = position vector
+v = velocity vector
+Cd = drag coefficient
+rho = atmospheric density
+A = projected area
+m = satellite mass
 
 The equations of motion are integrated using the Euler-Cromer method:
 
