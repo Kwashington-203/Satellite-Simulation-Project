@@ -1,4 +1,4 @@
-# Satellite Simulation Project
+# Satellite Orbital Simulation
 This project was developed for a MATLAB-based mechanical engineering programming course.
 
 ## Overview
