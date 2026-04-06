@@ -9,7 +9,7 @@ The simulation models satellite motion under gravitational forces, with optional
 
 The governing equation of motion is:
 
-a = - (G * M / r^3) * r  -  (Cd * rho * A / (2m)) * v * |v|
+a = - \($$\frac{G * M }{ r<sup>3</sup>}$$\) * r - \($$\frac{C<sub>d</sub> * &rho; * A}{2*m}$$\) * v * |v|
 
 where:
 
@@ -21,9 +21,9 @@ r = position vector
 
 v = velocity vector
 
-Cd = drag coefficient
+C<sub>d</sub> = drag coefficient
 
-rho = atmospheric density
+&rho; = atmospheric density
 
 A = projected area 
 
@@ -31,9 +31,9 @@ m = satellite mass
 
 The equations of motion are integrated using the Euler-Cromer method:
 
-v(n+1) = v(n) + a(n) * dt
+v<sub>n+1</sub> = v<sub>n</sub> + a<sub>n</sub> * &delta;t
 
-r(n+1) = r(n) + v(n+1) * dt
+r<sub>n+1</sub> = r<sub>n</sub> + v<sub>n+1</sub> * &delta;t
 
 This method improves numerical stability compared to standard Euler integration, making it suitable for long-duration orbital simulations.
 
