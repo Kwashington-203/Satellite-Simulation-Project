@@ -87,5 +87,5 @@ Time-history plots of altitude and speed for the first six satellites, illustrat
    - `read_input.m`
    - `satellite.m`
    - `satellite_data.txt`
-2. Open `MAE_8_Project.m` in MATLAB
+2. Open `Satellite_Orbital_Simulation.m` in MATLAB
 3. Run the script
