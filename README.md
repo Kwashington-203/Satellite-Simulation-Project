@@ -82,7 +82,7 @@ Time-history plots of altitude and speed for the first six satellites, illustrat
 
 ## How to Run
 1. Download all project files:
-   - `MAE_8_Project.m`
+   - `Satellite_Orbital_Simulation.m`
    - `earth_topo.m`
    - `read_input.m`
    - `satellite.m`
