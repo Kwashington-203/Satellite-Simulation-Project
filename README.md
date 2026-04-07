@@ -9,7 +9,9 @@ The simulation models satellite motion under gravitational forces, with optional
 
 The governing equation of motion is:
 
-a = - \( $$\frac{G * M }{ r<sup>3</sup>}$$ \) * r - \( $$\frac{C<sub>d</sub> * &rho; * A}{2*m}$$ \) * v * |v|
+$$
+\mathbf{a} = -\frac{G M}{r^3} \mathbf{r} - \frac{C_d \rho A}{2m} \mathbf{v} |\mathbf{v}|
+$$
 
 where:
 
