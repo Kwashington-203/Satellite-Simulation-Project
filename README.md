@@ -53,23 +53,23 @@ The model assumes a simplified two-body system and neglects higher-order perturb
 <p align="center">
   <img src="images/orbit_single.png" alt="3D visualization of a single satellite orbit around Earth" width="500">
 </p>
-
+<p align="center">
 Visualization of an individual satellite orbiting Earth, demonstrating the simulated trajectory generated from the Euler-Cromer integration method.
-
+</p>
 ### Multi-Satellite Orbital Evolution
 <p align="center">
   <img src="images/orbit_all.png" alt="3D visualization of all satellites at two different times" width="800">
 </p>
-
+<p align="center">
 Comparison of satellite positions at the start of the simulation and after 6000 seconds, showing the evolution of the orbital system over time.
-
+</p>
 ### Altitude and Speed vs. Time
 <p align="center">
   <img src="images/altitude_speed.png" alt="Altitude and speed plots for the first six satellites over time" width="800">
 </p>
-
+<p align="center">
 Time-history plots of altitude and speed for the first six satellites, illustrating periodic orbital behavior and variation in satellite motion.
-
+</p>
 
 ## Tools Used
 - MATLAB
